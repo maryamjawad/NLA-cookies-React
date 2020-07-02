@@ -17,7 +17,7 @@ class Form extends React.Component {
                     <meta name="description" content=""/>
                     <meta name="author" content=""/>
 
-                    <title>Cookies POlicy for Northern Lights Aid</title>
+                    <title>Cookies Policy for Northern Lights Aid</title>
                 </head>
 
                 <body>
@@ -47,7 +47,7 @@ class Form extends React.Component {
                 </header>
 
                 <main role="main" class="container">
-                    <h1 class="mt-5">Sticky footer with fixed navbar</h1>
+                    <h1 class="mt-5">Cookies Policy</h1>
                     <p class="lead">Pin a fixed-height footer to the bottom of the viewport in desktop browsers with
                         this custom HTML and CSS. A fixed navbar has been added with <code>padding-top: 60px;</code> on
                         the <code>body &gt; .container</code>.</p>
