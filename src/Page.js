@@ -60,8 +60,7 @@ class Page extends Component {
                 <ul>
                     <li>By email: hannah@northernlightsaid.org</li>
                 </ul>
-
-
+                
             </div>
         )
     }
