@@ -2,6 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom";
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Page from "./Page";
+import Headtag from "./Headtag";
+import Navtag from "./Navtag";
 
 
 class Form extends React.Component {
@@ -11,39 +14,12 @@ class Form extends React.Component {
 
             <div>
                 <html lang="en">
-                <head>
-                    <meta charset="utf-8"/>
-                    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-                    <meta name="description" content=""/>
-                    <meta name="author" content=""/>
-
-                    <title>Cookies Policy for Northern Lights Aid</title>
-                </head>
+                <Headtag />
 
                 <body>
 
                 <header>
-                    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-                        <a class="navbar-brand" href="#">Fixed navbar</a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse"
-                                data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
-                                aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarCollapse">
-                            <ul class="navbar-nav mr-auto">
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="#">English<span class="sr-only">(current)</span></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Norsk</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link disabled" href="#">Ελληνικά</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
+                   <Navtag/>
                 </header>
 
                 <main role="main" class="container">
@@ -52,6 +28,8 @@ class Form extends React.Component {
                         this custom HTML and CSS. A fixed navbar has been added with <code>padding-top: 60px;</code> on
                         the <code>body &gt; .container</code>.</p>
                     <p>Back to <a href="../sticky-footer/">the default sticky footer</a> minus the navbar.</p>
+
+                    <Page />
                 </main>
 
 
