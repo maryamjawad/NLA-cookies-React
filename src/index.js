@@ -24,11 +24,10 @@ class Form extends React.Component {
 
                 <main role="main" class="container">
                     <h1 class="mt-5">Cookies Policy</h1>
-                    <p class="lead">Pin a fixed-height footer to the bottom of the viewport in desktop browsers with
-                        this custom HTML and CSS. A fixed navbar has been added with <code>padding-top: 60px;</code> on
-                        the <code>body &gt; .container</code>.</p>
-                    <p>Back to <a href="../sticky-footer/">the default sticky footer</a> minus the navbar.</p>
-
+                    <p>Last updated: June 16, 2020</p>
+                    <p>This Cookies Policy explains what Cookies are and how We use them. You should read this policy so You can understand what type of cookies We use, or the information We collect using Cookies and how that information is used. This Cookies Policy has been created with the help of the Cookies Policy Generator.</p>
+                    <p>Cookies do not typically contain any information that personally identifies a user, but personal information that we store about You may be linked to the information stored in and obtained from Cookies. For further information on how We use, store and keep your personal data secure, see our Privacy Policy.</p>
+                    <p>We do not store sensitive personal information, such as mailing addresses, account passwords, etc. in the Cookies We use.</p>
                     <Page />
                 </main>
 
